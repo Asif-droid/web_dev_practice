@@ -1,0 +1,4 @@
+open index.htm in chrome 
+there is a piano.
+in auto "Play" you can select song to play(it is default "Happy birthday to you")
+it'll sound better the 2nd time you play

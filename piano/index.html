@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="piano">
+        <div class="piano_body">
+            <div class="speaker"></div>
+            <div class="piano_interface">
+                <div class="piano_controller">
+                    <h4>GORIBER PIANO ;)</h4>
+                    <label><input type="radio" class="piano_control_option" name="control" value="laternotes" checked>LaterNotes</label>
+                    <label><input type="radio" class="piano_control_option" name="control" value="keyboard">KeyBoard</label>
+                    <label><input type="radio" class="piano_control_option" name="control" value="none">None</label>
+                </div>
+                <div class="piano_autoplay">
+                    <h4>Auto Play</h4>
+                    <select class="piano_song">
+                        <option value="2">Happy Birthday</option>
+                        <option value="1">My heart'll go on</option>
+                        
+                        <!--<OPtion value="3">Hall of fame</OPtion>-->
+                        <!--<option value="4">Demon</option>*/-->
+                        <option value="5">pairates</option>
+                    </select>
+                    <label >
+                        <select class="piano_tempo">
+                            <option value="1" selected>Normal</option>
+                            <option value="2">Fast</option>
+                            <option value="3">Slow</option>
+                        </select>
+                    </label>
+                    <button class="piano_play_btn">Play</button>
+
+                </div>
+            </div>
+            <div class="speaker"></div>
+            
+        </div>
+        <div class="piano_keyboard">
+            
+        </div>
+    </div>
+    <script src='java_script/script.js'></script>
+    
+</body>
+</html>
